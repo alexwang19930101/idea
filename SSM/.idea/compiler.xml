@@ -9,6 +9,7 @@
         <module name="CRM" />
         <module name="employee" />
         <module name="SpringAOP" />
+        <module name="SpringDemo" />
         <module name="SpringIOC" />
         <module name="SpringTransaction" />
         <module name="SSM_Intergration" />
