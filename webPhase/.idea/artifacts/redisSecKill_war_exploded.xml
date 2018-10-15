@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="redisSecKill:war exploded">
+    <output-path>$PROJECT_DIR$/../webPhase/out/artifacts/redisSecKill_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="redisSecKill/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="redisSecKill" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

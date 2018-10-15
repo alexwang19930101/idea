@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mybatis.a_query.UserMapper">
+
+    <select id="selectList" parameterType="cn.itcast.mybatis.pojo.QueryVo"
+            resultType="cn.itcast.mybatis.pojo.User">
+        select * from user u where u.username=#{user.username}
+    </select>
+
+    <select id="selectCount" resultType="int">
+        select count(*) from user
+    </select>
+
+</mapper>
+
+
+
+

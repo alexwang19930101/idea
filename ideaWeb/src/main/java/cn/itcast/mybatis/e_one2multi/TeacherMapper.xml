@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mybatis.e_one2multi.TeacherMapper">
+    <resultMap id="TeacherWithStudent" type="cn.itcast.mybatis.pojo.one2multi.Teacher">
+        <id column="tid" property="tid"></id>
+        <result column="tname" property="tname"></result>
+        <collection property="students" ofType="cn.itcast.mybatis.pojo.one2multi.Student">
+            <id column="sid" property="sid"></id>
+            <result column="sname" property="sname"></result>
+        </collection>
+    </resultMap>
+
+    <select id="selectTeacherWithStudent" parameterType="int" resultMap="TeacherWithStudent">
+        SELECT * FROM teacher t,student s WHERE s.tid=t.tid AND t.tid=${value}
+    </select>
+</mapper>

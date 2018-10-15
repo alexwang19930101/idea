@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mybatis.c_dynamic.ProductMapper">
+    <select id="selectList1" parameterType="cn.itcast.mybatis.pojo.Product" resultType="cn.itcast.mybatis.pojo.Product">
+        select * from product
+        <where>
+            <if test="pid!=null">and pid=#{pid}</if>
+            <if test="pname!=null and pname!=''">and pname=#{pname}</if>
+        </where>
+    </select>
+
+    <select id="selectList2" parameterType="list" resultType="cn.itcast.mybatis.pojo.Product">
+        select * from product
+        <where>
+            <foreach collection="list" item="item" index="index" open="pid in (" separator="," close=")">
+                #{item}
+            </foreach>
+        </where>
+    </select>
+
+    <select id="selectList3" parameterType="map" resultType="cn.itcast.mybatis.pojo.Product">
+        select * from product
+        <where>
+            <foreach collection="_parameter" separator="and" index="key" item="value">
+                <if test="value != null and value != ''">
+                    ${key}=#{value}
+                </if>
+            </foreach>
+        </where>
+    </select>
+</mapper>
+
+
+
+

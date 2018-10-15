@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mybatis.d_one2one.WifeMapper">
+    <select id="selectWifeById" parameterType="int" resultType="cn.itcast.mybatis.pojo.one2one.Wife">
+        select * from wife w,husband h
+        <where>
+            w.hid = h.hid and wid=#{value}
+        </where>
+    </select>
+    
+    <resultMap id="wifeWithHusband" type="cn.itcast.mybatis.pojo.one2one.Wife">
+        <id column="wid" property="wid"></id>
+        <!--<result column="wname" property="wname"></result>-->
+        <association property="husband" javaType="cn.itcast.mybatis.pojo.one2one.Husband">
+            <id column="hid" property="hid"></id>
+            <result column="hname" property="hname"></result>
+        </association>
+    </resultMap>
+
+    <select id="selectWifeWithHusband" parameterType="int" resultMap="wifeWithHusband">
+        select * from wife w,husband h where w.hid=h.hid and w.wid=#{value}
+    </select>
+</mapper>
+
+
+
+

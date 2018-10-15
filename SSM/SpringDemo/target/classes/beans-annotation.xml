@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.1.xsd ">
+
+<!--    <context:component-scan
+            base-package="com.springdemo.annotation"
+            resource-pattern="repository/*.class"></context:component-scan>-->
+
+    <!-- 指定Spring IOC扫描的包 -->
+    <!--
+        include-filter需要和use-default-filters配合使用
+    -->
+    <context:component-scan 
+            base-package="com.springdemo.bean.annotation">
+            <!--use-default-filters="false">-->
+        <!--<context:exclude-filter type="annotation"
+                                expression="org.springframework.stereotype.Repository"></context:exclude-filter>-->
+        <!--<context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Service"></context:include-filter>-->
+        <!--<context:exclude-filter type="assignable"
+                                expression="UserRepository"></context:exclude-filter>-->
+        <!--<context:include-filter  type="assignable"
+                                 expression="UserRepository"></context:include-filter>-->
+    </context:component-scan>
+</beans>

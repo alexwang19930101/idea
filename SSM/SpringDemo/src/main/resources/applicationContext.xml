@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+    <bean id="helloWorld" class="com.springdemo.bean.HelloWorld">
+        <property name="username" value="spring"></property>
+    </bean>
+
+    <bean id="car" class="com.springdemo.bean.Car">
+        <constructor-arg value="audi" index="0"></constructor-arg>
+        <constructor-arg value="shanghai" index="1"></constructor-arg>
+        <constructor-arg value="3000.0" type="float"></constructor-arg>
+    </bean>
+
+    <bean id="car2" class="com.springdemo.bean.Car">
+        <constructor-arg value="bwm" type="java.lang.String"></constructor-arg>
+        <constructor-arg type="java.lang.String">
+            <value><![CDATA[<Shanghai^>]]></value>
+        </constructor-arg>
+        <constructor-arg value="240" type="int"></constructor-arg>
+    </bean>
+
+    <bean id="user" class="com.springdemo.bean.User">
+        <property name="userName" value="bob"></property>
+        <property name="wifeName" value="carry"></property>
+        <property name="cars">
+            <list>
+                <ref bean="car" />
+                <ref bean="car2" />
+                <bean class="com.springdemo.bean.Car">
+                    <constructor-arg value="benz"
+                                     type="java.lang.String"></constructor-arg>
+                    <constructor-arg type="java.lang.String">
+                        <value><![CDATA[wuhan]]></value>
+                    </constructor-arg>
+                    <constructor-arg value="300" type="int"></constructor-arg>
+                </bean>
+                <null />
+            </list>
+        </property>
+        <property name="carMap">
+            <map>
+                <entry key="w" value-ref="car"></entry>
+            </map>
+        </property>
+    </bean>
+
+
+    <util:list id="cars">
+        <ref bean="car" />
+        <ref bean="car2" />
+        <bean class="com.springdemo.bean.Car">
+            <constructor-arg value="benz" type="java.lang.String"></constructor-arg>
+            <constructor-arg type="java.lang.String">
+                <value><![CDATA[wuhan]]></value>
+            </constructor-arg>
+            <constructor-arg value="300" type="int"></constructor-arg>
+        </bean>
+        <null />
+    </util:list>
+
+    <bean id="user2" class="com.springdemo.bean.User">
+        <property name="userName" value="bob"></property>
+        <property name="wifeName" value="carry"></property>
+        <property name="cars" ref="cars"></property>
+        <property name="carMap">
+            <map>
+                <entry key="w" value-ref="car"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="user3" class="com.springdemo.bean.User"
+          p:userName="user3" p:wifeName="wifename" p:cars-ref="cars"></bean>
+
+    <bean id="user4" class="com.springdemo.bean.User"
+          p:userName="user" p:wifeName="wifename" p:cars-ref="cars"
+          abstract="true"></bean>
+    <bean id="user5" class="com.springdemo.bean.User"
+          p:userName="user5" p:cars-ref="cars" parent="user4"></bean>
+</beans>

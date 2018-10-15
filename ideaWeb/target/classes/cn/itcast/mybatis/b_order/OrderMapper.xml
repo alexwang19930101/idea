@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mybatis.b_order.OrderMapper">
+    <resultMap type="cn.itcast.mybatis.pojo.Orders" id="orderResultMap">
+        <id column="id" property="id"></id>
+        <result column="user_id" property="userId" />
+        <result column="number" property="number" />
+        <result column="createtime" property="createtime" />
+        <result column="note" property="note" />
+    </resultMap>
+
+    <select id="selectList1" resultType="cn.itcast.mybatis.pojo.Orders">
+		select id,user_id userId,number,createtime,note from orders
+	</select>
+
+    <select id="selectList2" resultMap="orderResultMap">
+		select * from orders
+	</select>
+
+</mapper>
+
+
+
+
