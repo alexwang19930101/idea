@@ -5,11 +5,10 @@ import com.wxy.employee.crud.dao.EmployeeDao;
 import com.wxy.employee.crud.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.Map;
-
-//import javax.validation.Valid;
 
 @Controller
 public class EmployeeHandler {
@@ -21,10 +20,10 @@ public class EmployeeHandler {
 	private DepartmentDao departmentDao;
 
 	@ModelAttribute
-	public void getEmployee(@RequestParam(value="id",required=false) Integer id,
-			Map<String, Object> map){
-		if(id != null){
-			map.put("employee", employeeDao.get(id));
+	public void getEmployee(@RequestParam(value = "id",required = false)Integer id,Map<String,Object> map){
+		if (null != id){
+			Employee employee = employeeDao.get(id);
+			map.put("employee",employee);
 		}
 	}
 	
@@ -49,11 +48,15 @@ public class EmployeeHandler {
 	}
 	
 	@RequestMapping(value="/emp", method=RequestMethod.POST)
-	public String save(Map<String, Object> map){
-		map.put("departments", departmentDao.getDepartments());
-
-		map.put("empoylee",new Employee());
-		return "input";
+	public String save(Employee employee , BindingResult bindingResult){
+		System.out.println(employee);
+		if (bindingResult.getErrorCount() > 0){
+			for (FieldError error : bindingResult.getFieldErrors()) {
+                System.out.println(error.getField()+":"+error.getDefaultMessage());
+			}
+		}
+		employeeDao.save(employee);
+		return "redirect:/emps";
 	}
 	
 	@RequestMapping(value="/emp", method=RequestMethod.GET)

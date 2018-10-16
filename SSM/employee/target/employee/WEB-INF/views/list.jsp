@@ -47,7 +47,7 @@
 				<th>Edit</th>
 				<th>Delete</th>
 			</tr>
-			
+
 			<c:forEach items="${requestScope.employees }" var="emp">
 				<tr>
 					<td>${emp.id }</td>
@@ -61,7 +61,7 @@
 			</c:forEach>
 		</table>
 	</c:if>
-	
+
 	<br><br>
 	
 	<a href="emp">Add New Employee</a>

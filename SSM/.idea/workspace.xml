@@ -2,16 +2,160 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="employee:war exploded" />
+      <artifact name="employee:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deb36b7-5586-408a-a174-ce988242397d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/convertors/EmployeeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/test/SpringMVCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee/employee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM.war" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/a" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/dao/BaseDictMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/dao/BaseDictMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/dao/CustomerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/BaseDict.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/BaseDict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/QueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/pojo/QueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/BaseDictService.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/BaseDictService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/BaseDictServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/BaseDictServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/utils/NavigationTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/utils/NavigationTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/utils/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/CRM/WEB-INF/classes/com/wxy/crm/utils/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/dao/BaseDictMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/dao/BaseDictMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/dao/CustomerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/BaseDict.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/BaseDict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/QueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/pojo/QueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/BaseDictService.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/BaseDictService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/BaseDictServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/BaseDictServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/service/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/utils/NavigationTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/utils/NavigationTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/utils/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/target/classes/com/wxy/crm/utils/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Mylog.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Mylog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/MylogExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/OrdersExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ProductExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/ShopExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/bean/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/pojo/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/aop/LogInfoAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/aop/LogInfoAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/controller/handlers/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/controller/handlers/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/controller/views/HelloView.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/controller/views/HelloView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/MylogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/MylogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/OrdersMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/OrdersMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/ShopMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/ShopMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/IMylogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/IMylogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/IProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/MylogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/MylogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/test/SaleSpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/test/SaleSpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/test/SaleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Intergration/target/classes/com/wxy/sale/test/SaleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorLogImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorLogImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorLoggingProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/ArithmeticCalculatorLoggingProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/helloworld/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ArithmeticCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ArithmeticCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ArithmeticCalculatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ArithmeticCalculatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/LoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ValidationApspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/imp_xml/ValidationApspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ArithmeticCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ArithmeticCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ArithmeticCalculatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ArithmeticCalculatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/LoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ValidationApspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAOP/target/classes/com/springaop/impl/ValidationApspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/Controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/TestObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/TestObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserJdbcRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserJdbcRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/repository/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/annotation/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/InstanceCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/InstanceCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/StaticCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factory/StaticCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/CarFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/CarFactoryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/factorybean/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/BaseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemo/target/classes/com/springdemo/bean/generic/di/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/pojo/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/pojo/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/AccountTransferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/AccountTransferTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/dao/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/dao/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTransaction/target/classes/com/springtransaction/transfer/service/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/scripts/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/webapp/scripts/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/entities/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/entities/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/entities/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/entities/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/handlers/EmployeeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/com/wxy/employee/crud/handlers/EmployeeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee.war" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/entities/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/entities/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/entities/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/entities/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/handlers/EmployeeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/com/wxy/employee/crud/handlers/EmployeeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/views/input.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/views/input.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/employee/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/employee/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/employee/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mbg/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mbg/com/wxy/test/mbg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mbg/mbg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,65 +198,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp">
+      <file leaf-file-name="CustomerMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/mappers/CustomerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="-2407">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/EmployeeDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <caret line="201" column="36" lean-forward="true" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -120,17 +228,29 @@
       <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="212">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a">
+      <file leaf-file-name="EmployeeConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/convertors/EmployeeConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="351">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMVCTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/test/SpringMVCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -138,17 +258,31 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="404">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/index.jsp">
+      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/success.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            <state relative-caret-position="432">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="62" selection-start-line="62" selection-end-line="75" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -159,10 +293,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -180,6 +314,8 @@
       <find>custname</find>
       <find>edit.</find>
       <find>contextconfigLocation</find>
+      <find>el</find>
+      <find>spring-</find>
     </findStrings>
     <replaceStrings>
       <replace>springdemo</replace>
@@ -197,10 +333,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/dao/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/test/SaleSpringTest.java" />
-        <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/test/SaleTest.java" />
-        <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/bean/Product.java" />
         <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/dao/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/aop/LogInfoAspect.java" />
         <option value="$PROJECT_DIR$/SpringAOP/src/main/java/com/springaop/impl/LoggingAspect.java" />
@@ -215,7 +347,6 @@
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/pojo/BaseDict.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/CRM/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/CRM/src/main/webapp/WEB-INF/tld/commons.tld" />
         <option value="$PROJECT_DIR$/CRM/src/main/resources/mappers/BaseDictMapper.xml" />
@@ -236,18 +367,23 @@
         <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/controller/handlers/HelloWorld.java" />
         <option value="$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/controller/views/HelloView.java" />
         <option value="$PROJECT_DIR$/SSM_Intergration/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/employee/pom.xml" />
         <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/employee/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/employee/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/employee/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java" />
-        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a" />
+        <option value="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/convertors/EmployeeConvertor.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/convertors/EmployeeConverter.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/test/SpringMVCTest.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp" />
+        <option value="$PROJECT_DIR$/employee/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/employee/pom.xml" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java" />
+        <option value="$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java" />
+        <option value="$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -299,9 +435,9 @@
     <option name="jreName" value="9" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="336" />
-    <option name="y" value="165" />
-    <option name="width" value="1561" />
+    <option name="x" value="357" />
+    <option name="y" value="145" />
+    <option name="width" value="1560" />
     <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -313,8 +449,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,46 +461,98 @@
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSM" type="462c0819:PsiDirectoryNode" />
-              <item name="CRM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="convertors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="employee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,16 +563,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructuresAndAlgorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3895411" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\SSM\employee\src\main\webapp" />
       <recent name="E:\ideaworkspace\SSM\employee\src\main\webapp" />
       <recent name="E:\ideaworkspace\SSM\mbg\src\com\wxy\test" />
       <recent name="E:\ideaworkspace\SSM\mbg\src" />
@@ -419,7 +608,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat9">
+  <component name="RunManager" selected="Tomcat Server.Tomcat9.0.12">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -599,17 +788,17 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <configuration name="Tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="employee:war exploded">
+        <artifact name="employee:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSM_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -666,7 +855,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="employee:war exploded" />
+          <artifact name="employee:war" />
         </option>
       </method>
     </configuration>
@@ -731,7 +920,7 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat9" />
+      <item itemvalue="Tomcat Server.Tomcat9.0.12" />
       <item itemvalue="JUnit.SaleSpringTest.testInsert" />
       <item itemvalue="JUnit.SaleTest.test2" />
       <item itemvalue="JUnit.SaleTest.test1" />
@@ -773,7 +962,10 @@
       <workItem from="1539531803852" duration="4776000" />
       <workItem from="1539562786653" duration="11442000" />
       <workItem from="1539590941434" duration="2107000" />
-      <workItem from="1539593529472" duration="52000" />
+      <workItem from="1539593529472" duration="14801000" />
+      <workItem from="1539612427152" duration="2047000" />
+      <workItem from="1539621449413" duration="2724000" />
+      <workItem from="1539655770955" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="add idea java project">
       <created>1539592404836</created>
@@ -782,7 +974,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539592404836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test idea commit">
+      <created>1539593616808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539593616808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -818,7 +1017,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131418000" />
+    <option name="totallyTimeSpent" value="159000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,17 +1029,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="336" y="165" width="1561" height="854" extended-state="0" />
+    <frame x="357" y="145" width="1560" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5013441" side_tool="true" weight="0.27313432" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3296433" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32706514" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32325268" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32899246" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32862905" />
       <window_info id="Structure" order="1" sideWeight="0.2875" side_tool="true" weight="0.28686175" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24948595" />
       <window_info id="UI Designer" order="4" />
@@ -851,19 +1050,20 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.31791046" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49865592" weight="0.48059702" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3279099" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32859176" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7125" visible="true" weight="0.31027535" />
-      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7125" visible="true" weight="0.28629032" />
+      <window_info anchor="bottom" id="Problems" order="0" weight="0.32985073" />
       <window_info id="Web" order="6" sideWeight="0.2875" side_tool="true" weight="0.28686175" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.2875" side_tool="true" weight="0.28686175" />
       <window_info active="true" anchor="bottom" id="Thumbnails" order="16" visible="true" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.2597015" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932796" weight="0.2597015" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32997313" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289855" />
@@ -877,7 +1077,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add idea java project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add idea java project" />
+    <MESSAGE value="test idea commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test idea commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,100 +1090,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SSM_Intergration/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.ui.Model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.ui.Model</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.ui.Model</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="18.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.List">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.List</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.List</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="104.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven_repo/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven_repo/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="4314" column="25" selection-start-line="4314" selection-start-column="25" selection-end-line="4314" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/pojo/BaseDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1047,13 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/service/BaseDictServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1068,13 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/pojo/QueryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/mappers/BaseDictMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1082,24 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/mappers/CustomerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1166,31 +1245,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/DepartmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/i18n.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1201,48 +1259,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="74">
           <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp">
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="621">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp">
+    <entry file="jar://E:/Maven_repo/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final-sources.jar!/javax/validation/constraints/NotEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="156">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java">
+    <entry file="jar://E:/Maven_repo/org/hibernate/validator/hibernate-validator/6.0.12.Final/hibernate-validator-6.0.12.Final-sources.jar!/org/hibernate/validator/constraints/NotEmpty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="129">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="837">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1251,25 +1320,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/entities/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="405">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee/src/main/resources/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/crud/handlers/EmployeeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/a">
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM_Intergration/src/main/java/com/wxy/sale/test/SaleSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/wxy/crm/dao/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/webapp/WEB-INF/views/input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="62" selection-start-line="62" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/test/SpringMVCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="201" column="36" lean-forward="true" selection-start-line="201" selection-start-column="36" selection-end-line="201" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/resources/mappers/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2407">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/src/main/java/com/wxy/employee/convertors/EmployeeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

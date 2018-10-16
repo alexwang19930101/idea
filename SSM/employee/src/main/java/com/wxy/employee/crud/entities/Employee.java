@@ -8,19 +8,32 @@ import java.util.Date;
 public class Employee {
 
 	private Integer id;
-	private String lastName;
 
+	private String lastName;
 	private String email;
 	//1 male, 0 female
 	private Integer gender;
 	
 	private Department department;
-	
-	@DateTimeFormat(pattern="yyyy-MM-dd")
+
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date birth;
 	
 	@NumberFormat(pattern="#,###,###.#")
 	private Float salary;
+
+	@Override
+	public String toString() {
+		return "Employee{" +
+				"id=" + id +
+				", lastName='" + lastName + '\'' +
+				", email='" + email + '\'' +
+				", gender=" + gender +
+				", department=" + department +
+				", birth=" + birth +
+				", salary=" + salary +
+				'}';
+	}
 
 	public Integer getId() {
 		return id;
@@ -78,15 +91,8 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", lastName=" + lastName + ", email="
-				+ email + ", gender=" + gender + ", department=" + department
-				+ ", birth=" + birth + ", salary=" + salary + "]";
-	}
-
 	public Employee(Integer id, String lastName, String email, Integer gender,
-			Department department) {
+					Department department) {
 		super();
 		this.id = id;
 		this.lastName = lastName;
