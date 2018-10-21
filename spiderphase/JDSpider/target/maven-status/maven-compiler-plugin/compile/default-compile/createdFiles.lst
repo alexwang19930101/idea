@@ -1,0 +1,15 @@
+com\wxy\spider\utils\HCUtils.class
+com\wxy\spider\bean\Product.class
+JDSprider\JdSpiderSlave.class
+com\wxy\spider\common\DruidDataSourceFactory.class
+com\wxy\spider\dao\ProductMapper.class
+com\wxy\spider\bean\ProductExample$GeneratedCriteria.class
+com\wxy\spider\utils\MybatisUtils.class
+com\wxy\spider\bean\ProductExample$Criteria.class
+com\wxy\spider\bean\ProductExample$Criterion.class
+JDSprider\JdSpiderMaster$1.class
+com\wxy\spider\utils\MyJsoupUtils.class
+JDSprider\JdSpiderMaster.class
+com\wxy\spider\bean\ProductExample.class
+com\wxy\spider\dao\TestProductMapper.class
+JDSprider\JdSpiderSlave$1.class

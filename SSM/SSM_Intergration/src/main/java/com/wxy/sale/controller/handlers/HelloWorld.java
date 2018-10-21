@@ -4,16 +4,29 @@ import com.wxy.pojo.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Date;
 import java.util.Map;
 
-@SessionAttributes(value = {"userSession","address"},types = {String.class})
+@SessionAttributes(value = {"userSession","address"})
 @Controller
 @RequestMapping("/hello")
 public class HelloWorld {
     private static final String SUCCESS = "success";
+
+    @RequestMapping("/testFileUpload")
+    public String testFileUpload(@RequestParam("file") MultipartFile file){
+        if (null != file) {
+            System.out.println("OriginalFilename:" + file.getOriginalFilename());
+            return SUCCESS;
+        }
+        else {
+            System.out.println("OriginalFilename: null");
+            return "failure";
+        }
+    }
 
     @RequestMapping("/testView")
     public String testView(){
@@ -65,7 +78,7 @@ public class HelloWorld {
      * ModelAndView可以包含视图和模型数据信息
      * SpringMVC会把Model的信息放入request域对象中
      */
-    @RequestMapping("/testModelAndView")
+    @RequestMapping(value = "/testModelAndView",method = RequestMethod.GET)
     public ModelAndView testModelAndView() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName(SUCCESS);
