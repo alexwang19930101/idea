@@ -27,14 +27,18 @@ import java.util.concurrent.Executors;
 
 // url = https://search.jd.com/Search?keyword=%E5%B0%8F%E7%B1%B3&enc=utf-8&wq=%E5%B0%8F%E7%B1%B3&pvid=ca420f46012d48c880efd4f757a7a7b0
 public class JdSpiderSlave {
-    private static ExecutorService threadPool;
+    private static final int SKU_NUM = 10;
+
+    private static ExecutorService threadPool = null;
     private static JedisPool jedisPool = null;
-    private static CountDownLatch downLatch = new CountDownLatch(10);
-    private static ArrayBlockingQueue<String> skuBlockingQueue = new ArrayBlockingQueue<String>(10);
+    private static CountDownLatch downLatch = null;
+    private static ArrayBlockingQueue<String> skuBlockingQueue = null;
 
     static {
         threadPool = Executors.newFixedThreadPool(10);
         jedisPool = new JedisPool(new JedisPoolConfig(), "192.168.15.3");
+        downLatch =  new CountDownLatch(SKU_NUM);
+        skuBlockingQueue = new ArrayBlockingQueue<String>(SKU_NUM);
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -55,7 +59,7 @@ public class JdSpiderSlave {
         }).start();
 
         Thread.sleep(200);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < SKU_NUM; i++) {
             threadPool.execute(new Runnable() {
                 @Override
                 public void run() {

@@ -9,6 +9,7 @@
         <module name="baseExec" />
         <module name="JDSpider" />
         <module name="lucene" />
+        <module name="MySolrJ" />
         <module name="spiderbase" />
       </profile>
     </annotationProcessing>

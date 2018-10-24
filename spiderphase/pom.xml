@@ -12,6 +12,7 @@
         <module>baseExec</module>
         <module>JDSpider</module>
         <module>lucene</module>
+        <module>MySolrJ</module>
     </modules>
     <packaging>pom</packaging>
 
